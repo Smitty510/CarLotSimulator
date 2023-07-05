@@ -57,6 +57,8 @@ namespace CarLotSimulator
             {
                 Console.WriteLine($"{vehicle.Year} {vehicle.Make} {vehicle.Model} {vehicle.IsDriveable} {vehicle.EngineNoise} {vehicle.HonkNoise}");
             }
+
+            Console.WriteLine($"The number of cars in the lot is: {CarLot.numberOfCars}");
             // Set the properties utilizing the 3 different ways we learned about, one way for each car
 
             //*************BONUS X 2*************//
